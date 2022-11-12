@@ -1,0 +1,82 @@
+{
+  "projects": [
+    {
+      "name": "Projeto Teste",
+      "budget": "50000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 600,
+      "services": [
+        {
+          "name": "Projeto de Testes",
+          "cost": "1000",
+          "description": "fazer testes no sistema todo",
+          "id": "f3f69434-24df-43d0-a90e-785145be6254"
+        },
+        {
+          "name": "atualização do sistema",
+          "cost": "2000",
+          "description": "comprar e instalar novos hardwares e softwares",
+          "id": "a1b33301-6d52-4f39-ae8d-536647e4bc9d"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Force Atualizado",
+      "budget": "25222",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": [
+        {
+          "name": "Teste de segurança",
+          "cost": "1000",
+          "description": "Procurar por falhas no sistema",
+          "id": "6396a564-d6bc-46ea-93ab-8c81c7ffb11d"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "Software de Segurança",
+      "budget": "75000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 5000,
+      "services": [
+        {
+          "name": "Criação da interface",
+          "cost": "5000",
+          "description": "Este serviço irá compor toda a interface da aplicação",
+          "id": "978d874e-6cb2-4bc9-87c3-dca43eeaaf19"
+        }
+      ],
+      "id": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}
